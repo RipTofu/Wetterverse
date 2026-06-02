@@ -1,0 +1,117 @@
+
+
+@font-face {
+    font-family: Alagard;
+    src: url("../../../assets/fonts/alagard.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IF Fell English parrafo";
+    src: url("../../../assets/fonts/FeENrm2.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IF Fell English titulo";
+    src: url("../../../assets/fonts/FeENsc2.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FeFlow2";
+    src: url("../../../assets/fonts/FeFlow2.ttf");
+    font-weight: normal;
+}
+
+html{
+    background-image: url("../../../assets/images/tree-bark-background-lightblur.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+header{
+    font-family: Alagard, serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+H1{
+    font-family: "Alagard", serif;
+    padding: 0;
+    font-size: 72px;
+    text-align: center;
+}
+
+.contenido{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 20vw 0 20vw;
+    height: 80vh;
+}
+
+p{
+    font-family: "IF Fell English parrafo", serif;
+    font-size: 14px;
+}
+
+.sidebar{
+    background-image: url("../../../assets/images/scroll-background-darker.jpg");
+    width: 20%;
+    min-width: 150px;
+    border-radius: 4px;
+    padding: 0 30px 0 30px;
+}
+
+
+.titulo-seccion{
+    list-style-type: none;
+    font-family: "IF Fell English titulo", serif;
+    font-size: 20px;
+}
+
+.lista-deco{
+    font-family:FeFlow2, serif;
+}
+
+.enlace-seccion{
+    font-family: "IF Fell English parrafo", serif;
+    font-size: 14px;
+    color: #c4a1a8;
+}
+
+main{
+    color: white;
+    background: #030000;
+    background: radial-gradient(circle, rgba(3, 0, 0, 0.7) 65%, rgba(133, 93, 47, 0.45) 90%, rgba(133, 93, 47, 0) 100%);
+    padding: 0 30px 0px 30px;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.titulo-capitulo{
+    font-family: "IF Fell English titulo", serif;
+    text-align: center;
+}
+
+.controles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: FeFlow2, serif;
+    font-size: 50px;
+    text-align: center;
+    gap: 100px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.boton-cambio{
+    color: #dfc4c9;
+}

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Alagard;
+    src: url("assets/fonts/alagard.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: AppleGaramond;
+    src: url("assets/fonts/AppleGaramond.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FeFlow2";
+    src: url("assets/fonts/FeFlow2.ttf");
+    font-weight: normal;
+}
+
+html{
+    background-color: black;
+    color: white;
+}
+
+main{
+    font-family: "AppleGaramond", serif;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin: 100px;
+}
+
+H1{
+    font-family: "Alagard", serif;
+    font-size: 50px;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.central-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+
+}
+
+.darko_placeholder{
+    width: 350px;
+}
+
+.side-column{
+    padding: 12px;
+    width: 200px;
+    outline: 2px solid brown;
+}
+
+.campaign-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.campaign-tittle{
+    font-size: 25px;
+    color: #515ddc;
+}
+
+.lista-deco{
+    font-size: 15px;
+    font-family:FeFlow2, serif;
+}
