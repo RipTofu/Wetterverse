@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "FeFlow2";
+    src: url("../../assets/fonts/FeFlow2.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IF Fell English titulo";
+    src: url("../../assets/fonts/FeENsc2.ttf");
+    font-weight: normal;
+}
+
+html {
+    background-image: url("../../assets/images/tree-bark-background-lightblur.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "IF Fell English titulo", serif;
+    font-size: 42px;
+}
+
+a{
+    color: #92a1ce;
+    font-size: 34px;
+}
+
+.deco{
+    font-family:FeFlow2, serif;
+    font-size: 40px;
+}

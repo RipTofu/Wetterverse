@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Alagard;
-    src: url("assets/fonts/alagard.ttf");
+    font-family: "Alagard";
+    src: url("/assets/fonts/alagard.ttf");
     font-weight: normal;
 }
 
@@ -13,6 +13,12 @@
 @font-face {
     font-family: "FeFlow2";
     src: url("assets/fonts/FeFlow2.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: EmojiFont;
+    src: url("assets/fonts/EmojiFont.ttf");
     font-weight: normal;
 }
 
@@ -31,10 +37,14 @@ main{
 }
 
 H1{
-    font-family: "Alagard", serif;
+    font-family: Alagard, serif;
     font-size: 50px;
     padding: 20px;
     margin-left: 90px;
+}
+
+.emoji{
+    font-family: EmojiFont, emoji;
 }
 
 .central-column {
