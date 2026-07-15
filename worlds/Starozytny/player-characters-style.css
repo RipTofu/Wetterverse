@@ -83,3 +83,7 @@ H1{
 .bio-titulo{
     margin-left: 20px;
 }
+
+.character-inventory{
+    visibility: hidden;
+}
