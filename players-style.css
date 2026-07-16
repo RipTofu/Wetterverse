@@ -1,4 +1,17 @@
 
+
+@font-face {
+    font-family: "Trooper Typewriter";
+    src: url("assets/fonts/typewriterFonts/ELEGANT-TYPEWRITER-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Trooper Typewriter Bold";
+    src: url("assets/fonts/typewriterFonts/ELEGANT-TYPEWRITER-Bold.ttf");
+    font-weight: bold;
+}
+
 @font-face {
     font-family: EmojiFont;
     src: url("assets/fonts/EmojiFont.ttf");
@@ -158,52 +171,68 @@ H1{
 
 /*Sección Trooper*/
 .seccion-player-trooper{
-    background-color: black;
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    gap: 10px;
+    background-image: url("assets/images/trooper/paper-background.png");
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    color: black;
 }
 
-.trooper-columna-izquierda
-{
-    /*Code del collage*/
+.trooper-polaroid{
+    background-color: #e6e6e6;
+    height: 280px;
+    width: 280px;
+    padding: 15px 15px 60px 15px;
+    box-shadow: 4px 8px 8px #202020;
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
 }
 
-.trooper-columna-central{
+.trooper-imagen-player{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.trooper-quotes{
+    margin-top: 0;
+    padding-top: 0;
     display: flex;
     flex-direction: column;
-    gap: 150px;
-}
-
-.trooper-upper-quotes{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.trooper-columna-derecha{
-    text-align: center;
-    position: relative;
+    gap: 20px;
 }
 
 .trooper-description{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    font-family: "Trooper Typewriter", serif;
 }
 
 .trooper-header{
+    font-family: "Trooper Typewriter Bold", serif;
     text-align: center;
     font-size: 32px;
 }
 
-.trooper-imagen-player{
-    width: 300px;
+.trooper-details-header{
+    font-family: "Trooper Typewriter Bold", serif;
+    text-align: center;
+    font-size: 32px;
+    margin: 30px;
 }
 
-.trooper-quote-bottom{
-    text-align: right;
+.trooper-details{
+    font-family: "Trooper Typewriter Bold", serif;
+}
+
+.trooper-quotes-header{
+    font-family: "Trooper Typewriter Bold", serif;
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 0 10px 0;
+}
+
+.trooper-quote{
+    font-family: "Trooper Typewriter Bold", serif;
 }
 
 /*Sección ame*/
