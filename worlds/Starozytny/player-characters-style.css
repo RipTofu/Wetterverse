@@ -113,3 +113,19 @@ H1{
 .character-tab.active{
     display:block;
 }
+
+.bag{
+    width: 100%;
+}
+.inventory-items{
+    display: flex;
+    justify-content: center;
+}
+
+.inventory-image{
+    width: 100px;
+}
+
+.inventory-description{
+    text-align: center;
+}
