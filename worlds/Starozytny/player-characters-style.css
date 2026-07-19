@@ -53,6 +53,7 @@ H1{
     align-items: center;
     padding: 20px;
     overflow: auto;
+    width: 100%;
 }
 
 .character-tabs-buttons{
@@ -97,6 +98,18 @@ H1{
     margin-left: 20px;
 }
 
-.character-inventory{
-    visibility: hidden;
+.inv{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-tab{
+    display:none;
+}
+
+.character-tab.active{
+    display:block;
 }

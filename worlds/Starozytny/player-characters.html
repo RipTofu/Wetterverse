@@ -46,16 +46,17 @@
         </div>
         <div class="character-right-block">
             <div class="character-tabs-buttons">
-                <button class="boton-superior">Bio</button>
+                <button class="boton-superior" data-tab="bio">Bio</button>
                 <div class="complemento-boton-superior"></div>
 
-                <button class="boton-superior">Bag</button>
+                <button class="boton-superior" data-tab="bag">Bag</button>
                 <div class="complemento-boton-superior"></div>
 
-                <button class="boton-superior">Build</button>
+                <button class="boton-superior" data-tab="build">Build</button>
                 <div class="complemento-boton-superior"></div>
             </div>
-            <div class="character-bio">
+            <div class="cuadro-info"></div>
+            <div class="character-tab bio active">
                 <h2 class="character-nombre">Sazsh</h2>
                 <div class="datos-personaje">Lvl 5 Gnoll Barbarian</div>
                 <div class="descripcion-personaje">
@@ -78,7 +79,7 @@
                         Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
                 </div>
             </div>
-            <div class="character-inventory">
+            <div class="character-tab bag">
                 <div class="inventory-items">
                     <div class="inventory-item">
                         <img class="inventory-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReXSfgM7pveawK0ujZTp0GZ8Qm71nBSnHKAdXGGt11Yw&s=10">
@@ -98,6 +99,6 @@
 
     </div>
 </main>
-
+<script src="player-characters-script.js"></script>
 </body>
 </html>
