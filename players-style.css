@@ -82,6 +82,11 @@ H1{
     font-size: 72px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+}
+
 .seccion-player{
     padding: 30px;
     height: 80vh;
