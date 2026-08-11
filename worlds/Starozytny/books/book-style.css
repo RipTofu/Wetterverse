@@ -90,6 +90,10 @@ h1 a{
     flex-shrink: 0;
 }
 
+.seccion-sidebar{
+    z-index: 3;
+}
+
 .titulo-seccion {
     list-style-type: none;
     font-family: "IF Fell English titulo", serif;
