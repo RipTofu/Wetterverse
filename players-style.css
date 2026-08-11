@@ -87,6 +87,11 @@ H1{
     font-size: 72px;
 }
 
+H1 a{
+    color: #515ddc;
+}
+
+
 footer{
     display: flex;
     justify-content: center;
@@ -434,6 +439,8 @@ footer{
     margin: 0;
     text-align: left;
 }
+
+/*Sección Milo*/
 
 .seccion-player-milo{
     background: linear-gradient(rgb(17 81 0 / 0.5), rgb(17 81 0 / 0.5)),

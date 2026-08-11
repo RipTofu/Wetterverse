@@ -1,5 +1,7 @@
 let oscuro = document.getElementById("obscure");
+let paragraphs = document.getElementsByTagName("p");
 let actual = false
+
 
 function toggleOscuro(){
     if(actual){
