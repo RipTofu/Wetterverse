@@ -4,10 +4,6 @@
     font-weight: normal;
 }
 
-*{
-    outline: 2px solid red;
-}
-
 html{
     background-image: url("../../assets/images/tree-bark-background-lightblur.jpg");
     background-attachment: fixed;
@@ -24,9 +20,10 @@ header{
 }
 
 main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 H1{
@@ -63,6 +60,12 @@ footer{
 }
 
 .character-right-block{
+    background-color: rgb(0 0 0 / 0.75);
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAB8klEQVR4AezcUWrDQAyE4bRHaaH3P0+hvUr7GmaJhDzjYDt/IVBFlrL7WSzOS95vzd/vz/fflV7Ndu10C2p/wos1ADR8wwHdG1TPy4/Pr7f7l37+fe4M/+v+dD9uzIS6glIPqIC4IaCuoNSPQfWc3PtMkvXa4d7rH4PaO7p4A0DDNxjQA4CGl3Ctdkxo+H4CCmhYINxumdDuOe1sz51hr7bdAtpWcEEpAGjJM08COjcrK1pQPVM1Lru/YLIFfUETa8uAWnxrMaCrifXOs0CtRZ6pGNDw3QIU0LBAuB0TCmhYINyOCQU0LBBux4QCGhYIt2NCAQ0LhNsdeULDW31OO0DDzoACGhYIt2NCAQ0LhNsxoYCGBcLtmFBAwwLhdkwooGGBcLurTWiYZ94O0LlZWQFoyTNPAjo3KysALXnmSUDnZmUFoCXPPAno3KysALTkmScBnZuVFYCWPPMkoHOzsgLQ260EmiYBnYo11wPaAE3TgE7FmusBFSD9PQCN5fIlBHQh8d4A1PNbqgFdSLw3ABU//T0AjbszFVABdUNAXUGpB1RA3BDQbYIPqwB9SLMtAeg2t4dVgD6k2ZawQafPaduWuV9Vev026H5bPWdnQMP3DdCjg3Znkn4XPlqsvro+3Z9ez4SqiBkDagJqOaAqYsb/AAAA///1BPHrAAAABklEQVQDACZ7KtccQ5diAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
+    border-width:  28px;
+    border-style:  solid;
+
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,34 +116,7 @@ footer{
     margin-left: 20px;
 }
 
-.inv{
-    background-color: blue;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .character-tab{
-    display:none;
-}
-
-.character-tab.active{
-    display:block;
-}
-
-.bag{
-    width: 100%;
-}
-.inventory-items{
-    display: flex;
-    justify-content: center;
-}
-
-.inventory-image{
-    width: 100px;
-}
-
-.inventory-description{
-    text-align: center;
+    display: block;
 }
