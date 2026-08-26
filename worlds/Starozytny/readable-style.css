@@ -1,29 +1,29 @@
 @font-face {
-    font-family: Alagard;
-    src: url("../../../assets/fonts/alagard.ttf");
+    font-family: blackChancery;
+    src: url("../../assets/fonts/blackChancery.ttf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "IF Fell English parrafo";
-    src: url("../../../assets/fonts/FeENrm2.ttf");
+    src: url("../../assets/fonts/FeENrm2.ttf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "IF Fell English titulo";
-    src: url("../../../assets/fonts/FeENsc2.ttf");
+    src: url("../../assets/fonts/FeENsc2.ttf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "FeFlow2";
-    src: url("../../../assets/fonts/FeFlow2.ttf");
+    src: url("../../assets/fonts/FeFlow2.ttf");
     font-weight: normal;
 }
 
 html {
-    background-image: url("../../../assets/images/tree-bark-background-lightblur.jpg");
+    background-image: url("../../assets/images/tree-bark-background-lightblur.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    font-family: Alagard, serif;
+    font-family: BlackChancery, serif;
     display: flex;
     align-content: flex-start;
     padding: 0;
@@ -42,7 +42,7 @@ header {
 }
 
 h1 {
-    font-family: Alagard, serif;
+    font-family: BlackChancery, serif;
     padding: 0;
     margin: 0;
     font-size: 54px;
@@ -80,7 +80,7 @@ h1 a{
 }
 
 .sidebar {
-    background-image: url("../../../assets/images/scroll-background-darker.jpg");
+    background-image: url("../../assets/images/scroll-background-darker.jpg");
     width: 200px;
     height: 600px;
     margin: 4px 10px 4px 4px;

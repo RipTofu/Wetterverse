@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: Alagard;
-    src: url("../../assets/fonts/alagard.ttf");
+    font-family: blackChancery;
+    src: url("../../assets/fonts/blackChancery.ttf");
     font-weight: normal;
 }
 
@@ -17,8 +17,6 @@
     font-weight: normal;
 }
 
-
-
 html {
     background-image: url("../../assets/images/tree-bark-background-lightblur.jpg");
     background-attachment: fixed;
@@ -27,8 +25,9 @@ html {
 }
 
 H1{
-    font-family: "Alagard", serif;
+    font-family: "blackChancery", serif;
     padding: 20px;
+    margin: 30px 10px 0 10px;
     font-size: 72px;
     text-align: center;
 }
@@ -51,6 +50,7 @@ footer{
 
 .quick-links{
     display: flex;
+    height: 150px;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 90px 0 90px;
