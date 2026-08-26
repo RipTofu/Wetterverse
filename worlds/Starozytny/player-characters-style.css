@@ -48,13 +48,17 @@ H1{
     text-align: center;
 }
 
+H1 a{
+    color: #dddddd;
+}
+
 H2{
-    color: lightskyblue;
+    color: #E4F2C4;
     text-align: center;
 }
 
 H3{
-    color: red;
+    color: #ec7412;;
     text-align: center;
 }
 

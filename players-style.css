@@ -110,6 +110,15 @@ footer{
     font-family: EmojiFont, emoji;
 }
 
+/*Sección Darko*/
+.seccion-player-darko{
+    background-image: url("assets/images/darko/darko-fondo.jpg");
+}
+
+.darko-header{
+    font-size: 42px;
+}
+
 /*Sección Kori*/
 
 .seccion-player-kori{
