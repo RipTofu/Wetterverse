@@ -96,6 +96,8 @@ footer{
 
 .introduction{
     font-family: "IF Fell English2", "Times New Roman";
+    color: white;
+    text-decoration: none;
     font-size: 14px;
     padding: 15px;
     margin: 30px 200px 50px 200px;
@@ -105,6 +107,12 @@ footer{
     text-align: center;
     background-image: url("../../assets/images/scroll-background-darker.jpg");
     box-shadow: 4px 4px 4px black;
+}
+
+.introduction a{
+
+    color: white;
+    text-decoration: underline;
 }
 
 

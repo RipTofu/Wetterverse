@@ -86,6 +86,11 @@ footer{
     width: 250px;
     height: 250px;
     object-fit: cover;
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAF5JREFUOE/tlcEKACAIQ93/f7ShYEjdnB0Cu+TFx9KlEBFRVQWArhgBtNugBmfjS52BqycEvoHmelYV5jznnc1hwPN89/ubmk739zBhPBq5Y/4f/z477fPWaNtLeYQuBnEACe0Y5vgAAAAASUVORK5CYII=') 7 /  7px / 0 round;
+    border-width:  7px;
+    border-style:  solid;
+
+
 }
 
 .character-info-block{
@@ -139,6 +144,10 @@ footer{
 
 .datos-personaje{
     font-size: 10px;
+}
+
+.datos-personaje a{
+    color: #515ddc;
 }
 
 .bio-titulo{
