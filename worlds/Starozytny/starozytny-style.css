@@ -18,7 +18,7 @@
 }
 
 html {
-    background-image: url("../../assets/images/tree-bark-background-lightblur.jpg");
+    background-image: url("../../assets/images/starozytny-assets/tree-bark-background-lightblur.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -75,14 +75,14 @@ footer{
 }
 
 .menu-image{
-    background-image: url("../../assets/images/libro-cerrado.png");
+    background-image: url("../../assets/images/starozytny-assets/libro-cerrado.png");
     background-size: cover;
     width: 116px;
     height: 126px;
 }
 
 .quick-link:hover .menu-image{
-    background-image: url("../../assets/images/libro-abierto.png");
+    background-image: url("../../assets/images/starozytny-assets/libro-abierto.png");
     height: 126px;
     width: 228px;
 }
@@ -105,7 +105,7 @@ footer{
     align-self: center;
     justify-content: center;
     text-align: center;
-    background-image: url("../../assets/images/scroll-background-darker.jpg");
+    background-image: url("../../assets/images/starozytny-assets/scroll-background-darker.jpg");
     box-shadow: 4px 4px 4px black;
 }
 
@@ -190,7 +190,7 @@ footer{
 .info-libro{
     display: none;
     position: absolute;
-    background-image: url("../../assets/images/scroll-background-darker.jpg");
+    background-image: url("../../assets/images/starozytny-assets/scroll-background-darker.jpg");
     color: white;
     width: 250px;
     z-index: 10; /* Mostrar sobre los demás libros. Pendiente: Ajustar los demás z-index. */

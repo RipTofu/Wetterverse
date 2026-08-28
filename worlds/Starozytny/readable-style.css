@@ -23,7 +23,7 @@
 }
 
 html {
-    background-image: url("../../assets/images/tree-bark-background-lightblur.jpg");
+    background-image: url("../../assets/images/starozytny-assets/tree-bark-background-lightblur.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -80,7 +80,7 @@ h1 a{
 }
 
 .sidebar {
-    background-image: url("../../assets/images/scroll-background-darker.jpg");
+    background-image: url("../../assets/images/starozytny-assets/scroll-background-darker.jpg");
     width: 200px;
     height: 600px;
     margin: 4px 10px 4px 4px;
